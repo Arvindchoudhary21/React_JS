@@ -3,11 +3,12 @@
 import Chai from "./chai"
 function App() {
 
-
+  let username = 'arvind'; //!way to pass variable in the text
   return (
     <>
     <Chai /> 
-    <h1>hello bro</h1>
+    {/* yha sirf variable pass krna jo code likhna hai uper likha */}
+    <h1>hello bro your name is {username}</h1> 
     <p>arvind</p>
     </>
   )
