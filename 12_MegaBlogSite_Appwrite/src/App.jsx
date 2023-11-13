@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react'
 import { useDispatch } from 'react-redux'
 import './App.css'
@@ -25,6 +24,7 @@ function App() {
         }
         else {
           // !agar data mila hi nhi to dispath kr do logout matlab state updated rhe
+          dispatch(logout())
         }
       })
       .finally(() => setLoading(false));
@@ -38,9 +38,10 @@ function App() {
         <Header />
         {/* outlet dispay by react router dom */}
         <main>
-          TODO: {/* <Outlet /> */}
+          <Outlet />
         </main>
         <Footer />
+
       </div>
     </div>
   ) : null

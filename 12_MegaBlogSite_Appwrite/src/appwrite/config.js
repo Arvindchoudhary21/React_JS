@@ -9,7 +9,7 @@ export class Service {
     client = new Client();
     databases;
     bucket;
-    // !make constructor
+    // !make constructor    
     constructor() {
         this.client
             .setEndpoint(conf.appwriteUrl)
