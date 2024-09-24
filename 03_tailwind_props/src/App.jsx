@@ -7,7 +7,7 @@ import Card from './components/card'
 function App() {
   const [count, setCount] = useState(0)
 
-  // !so we can create our object array jo bhi banana hai yha banao and osko pass kr do jo bhi component me pass krna hai
+  // !so we can create our object , array jo bhi banana hai yha banao and osko pass kr do jo bhi component me pass krna hai
   // !and it will be recieved at the card.jsx as props ok
   let myobj = {
     username : "arvind",

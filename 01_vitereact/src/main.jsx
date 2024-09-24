@@ -14,7 +14,7 @@ function Myapp(){
 // !object ke kya kya property ues krega for example -> type ke jagah to kuch bhi ho sakta hai to react ko
 // !kaise malum chalega ki type ek property hai is reactElement object ka so react ke apne kuch rules hai
 // !onko ye follow krta hai so create object according to react rules then run krega object ok 
-const reactElement = {
+const reactElement = { 
     type : 'a',
     props : {
         href : 'https:/www.google.com',
@@ -31,7 +31,7 @@ const anotherElement = (
 let justtext = 'how are you';
 // !using react rules to create elements 
 // 1.first is tag -> any tag p h1 h2 anyone
-// 2. object
+// 2. object 
 // 3. text
 // 4. variables 
 // !sab ko remove kroge and sirf ActualReactElement likhoge li this -> ActualReactElement -> tabhi 
